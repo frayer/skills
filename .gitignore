@@ -1,0 +1,18 @@
+# Work Journal - Local files not to be synced
+.DS_Store
+
+# Editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+.scratch/
+
+# Project-specific files
+
+.agents/skills/skill-creator
+.claude/
