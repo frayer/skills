@@ -22,4 +22,3 @@ Same process as mid-year, covering the full year (or July-December if mid-year a
 - The more weekly notes you have, the better the review. Even sparse notes help.
 - The skill pulls language from `journal/knowledgebase/objectives.md` — keep that file current.
 - Reviews are drafted for revision. Expect to iterate 2-3 times.
-- If you have legacy entries in `journal/priorities/`, mention them and the skill will include that data too.
