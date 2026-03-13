@@ -25,7 +25,6 @@ journal/
   weekly/                  # Weekly tactical notes: YYYY-MM-DD.md
   reviews/                 # Mid-year and year-end outputs: YYYY-midyear.md, YYYY-yearend.md
   advisor/                 # Working memory from advisor conversations: YYYY-MM-DD-<topic>.md
-  priorities/              # Legacy effort entries (read for historical context)
 ```
 
 **Note on efforts files:** The most recent year's efforts file (e.g., `2026-efforts.md`) represents current active work. If no efforts file exists for the current year, check for the most recent year available, or proceed without efforts context and note this to the user.
@@ -126,7 +125,6 @@ journal/
    - Year-end: January through December (or July through December if mid-year already done)
 4. **Gather source material:**
    - Glob and read all files in `journal/weekly/*.md` within the time range
-   - Optionally read `journal/priorities/*.md` for legacy entries
    - Read any advisor session files in `journal/advisor/` for strategic thinking context
 5. **If the user provides a template:** Use their template structure exactly. Fill in each section with synthesized content from the weekly notes.
 6. **If no template is provided:** Use the standard review format — organize accomplishments under the objective headings from the knowledgebase, plus an "Additional Contributions" section for work that doesn't fit neatly.

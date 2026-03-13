@@ -127,7 +127,6 @@ def create_directory_structure(target_dir: Path, mode: str = "fresh") -> dict:
         "weekly",
         "reviews",
         "advisor",
-        "priorities",
         "templates",
     ]
 
@@ -176,7 +175,7 @@ def create_gitkeep_files(target_dir: Path, summary: dict):
     """Create .gitkeep files in empty directories."""
     journal_dir = target_dir / "journal"
 
-    empty_dirs = ["weekly", "reviews", "advisor", "priorities", "templates"]
+    empty_dirs = ["weekly", "reviews", "advisor", "templates"]
 
     for subdir in empty_dirs:
         gitkeep_path = journal_dir / subdir / ".gitkeep"

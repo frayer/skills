@@ -74,7 +74,6 @@ journal/
 ├── weekly/             → Weekly tactical notes
 ├── reviews/            → Mid-year and year-end self-assessments
 ├── advisor/            → Career advisor conversation notes
-├── priorities/         → Legacy format (for migration)
 └── templates/          → Reference templates
 
 ## Next Steps
