@@ -14,5 +14,5 @@
 
 # Project-specific files
 
-.agents/skills/skill-creator
-.claude/
+.agents/
+.claude/skills/skill-creator
